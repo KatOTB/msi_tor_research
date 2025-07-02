@@ -1,0 +1,5 @@
+Clear Domain,Type,URL,DNS Lookup (ms),TCP Connect (ms),TLS Handshake (ms),DOMContentLoaded (ms),Page Load (ms),Total Time (ms)
+archive.org,onion,https://archivep75mbjunhxc6x4j5mwjmomyxb573v42baldlqu56ruil2oiad.onion/,0.0,1957.0,0.0,4285.0,11027.0,11027.0
+archive.org,clear,https://archive.org,16.0,324.0,0.0,1126.0,2198.0,2198.0
+theguardian.com,onion,https://www.guardian2zotagl6tmjucg3lrhxdk4dw3lhbqnkvvkywawy3oqfoprid.onion/europe,0.0,1489.0,0.0,3256.0,3849.0,3849.0
+theguardian.com,clear,https://theguardian.com,0.0,0.0,2.0,322.0,426.0,426.0

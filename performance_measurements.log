@@ -1,0 +1,24 @@
+[2025-07-02 20:25:44] INFO: Measuring ONION for archive.org (Run 1/5)
+[2025-07-02 20:26:07] INFO: Sleeping for 10 minutes before next run...
+
+[2025-07-02 20:28:59] INFO: Starting measurement run 1 of 5
+[2025-07-02 20:28:59] INFO: Measuring ONION for archive.org
+[2025-07-02 20:29:16] INFO: Measuring CLEAR WEB for archive.org
+[2025-07-02 20:29:28] INFO: Measuring ONION for theguardian.com
+[2025-07-02 20:29:45] INFO: Measuring CLEAR WEB for theguardian.com
+[2025-07-02 20:29:55] INFO: Measuring ONION for brave.com
+[2025-07-02 20:30:15] INFO: Measuring CLEAR WEB for brave.com
+[2025-07-02 20:30:25] INFO: Measuring ONION for dw.com
+[2025-07-02 20:31:04] INFO: Starting measurement run 1 of 5
+[2025-07-02 20:31:04] INFO: Measuring ONION for archive.org
+[2025-07-02 20:31:25] INFO: Measuring CLEAR WEB for archive.org
+[2025-07-02 20:31:38] INFO: Measuring ONION for theguardian.com
+[2025-07-02 20:31:50] INFO: Measuring CLEAR WEB for theguardian.com
+[2025-07-02 20:32:00] INFO: Waiting 10 minutes before next run...
+[2025-07-02 20:33:11] INFO: Starting measurement run 1 of 5
+[2025-07-02 20:33:11] INFO: Measuring ONION for archive.org
+[2025-07-02 20:33:32] INFO: Measuring CLEAR WEB for archive.org
+[2025-07-02 20:33:43] INFO: Measuring ONION for theguardian.com
+[2025-07-02 20:33:56] INFO: Measuring CLEAR WEB for theguardian.com
+[2025-07-02 20:34:06] INFO: Saving intermediate averages to CSV after run 1
+[2025-07-02 20:34:06] INFO: Waiting 10 minutes before next run...
