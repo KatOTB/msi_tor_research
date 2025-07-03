@@ -4,8 +4,8 @@ import logging
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 
-INPUT_CSV = "onion_locations_found copy.csv"
-OUTPUT_CSV = "performance_comparison.csv"
+INPUT_CSV = "onion_locations_found_filtered.csv"
+OUTPUT_CSV = "onion_vs_clearnet_comparison.csv"
 NUM_RUNS = 5
 DELAY_BETWEEN_RUNS = 600  # 10 minutes
 

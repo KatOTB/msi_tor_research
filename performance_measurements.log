@@ -1,24 +1,334 @@
-[2025-07-02 20:25:44] INFO: Measuring ONION for archive.org (Run 1/5)
-[2025-07-02 20:26:07] INFO: Sleeping for 10 minutes before next run...
+[2025-07-03 02:28:09] INFO: Starting measurement run 1 of 5
+[2025-07-03 02:28:09] INFO: Measuring ONION for archive.org
+[2025-07-03 02:28:32] INFO: Measuring CLEAR WEB for archive.org
+[2025-07-03 02:28:43] INFO: Measuring ONION for theguardian.com
+[2025-07-03 02:29:29] INFO: Measuring CLEAR WEB for theguardian.com
+[2025-07-03 02:29:39] INFO: Measuring ONION for brave.com
+[2025-07-03 02:29:58] INFO: Measuring CLEAR WEB for brave.com
+[2025-07-03 02:30:08] INFO: Measuring ONION for dw.com
+[2025-07-03 02:30:16] WARNING: Error measuring https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/: Message: Reached error page: about:neterror?e=connectionFailure&u=https%3A//www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/&c=UTF-8&d=Firefox%20kann%20keine%20Verbindung%20zu%20dem%20Server%20unter%20www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion%20aufbauen.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:910:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
 
-[2025-07-02 20:28:59] INFO: Starting measurement run 1 of 5
-[2025-07-02 20:28:59] INFO: Measuring ONION for archive.org
-[2025-07-02 20:29:16] INFO: Measuring CLEAR WEB for archive.org
-[2025-07-02 20:29:28] INFO: Measuring ONION for theguardian.com
-[2025-07-02 20:29:45] INFO: Measuring CLEAR WEB for theguardian.com
-[2025-07-02 20:29:55] INFO: Measuring ONION for brave.com
-[2025-07-02 20:30:15] INFO: Measuring CLEAR WEB for brave.com
-[2025-07-02 20:30:25] INFO: Measuring ONION for dw.com
-[2025-07-02 20:31:04] INFO: Starting measurement run 1 of 5
-[2025-07-02 20:31:04] INFO: Measuring ONION for archive.org
-[2025-07-02 20:31:25] INFO: Measuring CLEAR WEB for archive.org
-[2025-07-02 20:31:38] INFO: Measuring ONION for theguardian.com
-[2025-07-02 20:31:50] INFO: Measuring CLEAR WEB for theguardian.com
-[2025-07-02 20:32:00] INFO: Waiting 10 minutes before next run...
-[2025-07-02 20:33:11] INFO: Starting measurement run 1 of 5
-[2025-07-02 20:33:11] INFO: Measuring ONION for archive.org
-[2025-07-02 20:33:32] INFO: Measuring CLEAR WEB for archive.org
-[2025-07-02 20:33:43] INFO: Measuring ONION for theguardian.com
-[2025-07-02 20:33:56] INFO: Measuring CLEAR WEB for theguardian.com
-[2025-07-02 20:34:06] INFO: Saving intermediate averages to CSV after run 1
-[2025-07-02 20:34:06] INFO: Waiting 10 minutes before next run...
+[2025-07-03 02:30:18] INFO: Measuring CLEAR WEB for dw.com
+[2025-07-03 02:30:28] INFO: Measuring ONION for guardian.co.uk
+[2025-07-03 02:30:42] INFO: Measuring CLEAR WEB for guardian.co.uk
+[2025-07-03 02:30:52] INFO: Measuring ONION for voanews.com
+[2025-07-03 02:31:11] INFO: Measuring CLEAR WEB for voanews.com
+[2025-07-03 02:31:22] INFO: Measuring ONION for proton.me
+[2025-07-03 02:31:35] INFO: Measuring CLEAR WEB for proton.me
+[2025-07-03 02:31:45] INFO: Measuring ONION for amnesty.org
+[2025-07-03 02:32:05] INFO: Measuring CLEAR WEB for amnesty.org
+[2025-07-03 02:32:15] INFO: Measuring ONION for propublica.org
+[2025-07-03 02:32:35] INFO: Measuring CLEAR WEB for propublica.org
+[2025-07-03 02:32:46] INFO: Measuring ONION for torproject.org
+[2025-07-03 02:33:01] INFO: Measuring CLEAR WEB for torproject.org
+[2025-07-03 02:33:11] INFO: Measuring ONION for archive.is
+[2025-07-03 02:33:24] INFO: Measuring CLEAR WEB for archive.is
+[2025-07-03 02:33:37] INFO: Measuring ONION for rferl.org
+[2025-07-03 02:33:55] INFO: Measuring CLEAR WEB for rferl.org
+[2025-07-03 02:34:06] INFO: Measuring ONION for mullvad.net
+[2025-07-03 02:34:25] INFO: Measuring CLEAR WEB for mullvad.net
+[2025-07-03 02:34:35] INFO: Measuring ONION for archive.ph
+[2025-07-03 02:34:46] INFO: Measuring CLEAR WEB for archive.ph
+[2025-07-03 02:34:58] INFO: Measuring ONION for mempool.space
+[2025-07-03 02:35:13] INFO: Measuring CLEAR WEB for mempool.space
+[2025-07-03 02:35:25] INFO: Measuring ONION for taz.de
+[2025-07-03 02:35:46] INFO: Measuring CLEAR WEB for taz.de
+[2025-07-03 02:35:56] INFO: Measuring ONION for marxists.org
+[2025-07-03 02:36:10] INFO: Measuring CLEAR WEB for marxists.org
+[2025-07-03 02:36:20] INFO: Measuring ONION for wiz.biz
+[2025-07-03 02:36:34] INFO: Measuring CLEAR WEB for wiz.biz
+[2025-07-03 02:36:44] INFO: Measuring ONION for f-droid.org
+[2025-07-03 02:37:03] INFO: Measuring CLEAR WEB for f-droid.org
+[2025-07-03 02:37:13] INFO: Measuring ONION for cock.li
+[2025-07-03 02:37:26] INFO: Measuring CLEAR WEB for cock.li
+[2025-07-03 02:37:35] INFO: Measuring ONION for mediapart.fr
+[2025-07-03 02:37:52] INFO: Measuring CLEAR WEB for mediapart.fr
+[2025-07-03 02:38:02] INFO: Measuring ONION for riseup.net
+[2025-07-03 02:38:18] INFO: Measuring CLEAR WEB for riseup.net
+[2025-07-03 02:38:30] INFO: Measuring ONION for blockstream.info
+[2025-07-03 02:38:51] INFO: Measuring CLEAR WEB for blockstream.info
+[2025-07-03 02:39:02] INFO: Measuring ONION for svoboda.org
+[2025-07-03 02:39:22] INFO: Measuring CLEAR WEB for svoboda.org
+[2025-07-03 02:39:33] INFO: Saving intermediate averages to CSV after run 1
+[2025-07-03 02:39:33] INFO: Waiting 10 minutes before next run...
+[2025-07-03 02:49:33] INFO: Starting measurement run 2 of 5
+[2025-07-03 02:49:33] INFO: Measuring ONION for archive.org
+[2025-07-03 02:50:05] INFO: Measuring CLEAR WEB for archive.org
+[2025-07-03 02:50:17] INFO: Measuring ONION for theguardian.com
+[2025-07-03 02:50:43] INFO: Measuring CLEAR WEB for theguardian.com
+[2025-07-03 02:50:53] INFO: Measuring ONION for brave.com
+[2025-07-03 02:51:13] INFO: Measuring CLEAR WEB for brave.com
+[2025-07-03 02:51:23] INFO: Measuring ONION for dw.com
+[2025-07-03 02:51:30] WARNING: Error measuring https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/: Message: Reached error page: about:neterror?e=connectionFailure&u=https%3A//www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/&c=UTF-8&d=Firefox%20kann%20keine%20Verbindung%20zu%20dem%20Server%20unter%20www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion%20aufbauen.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:910:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+[2025-07-03 02:51:33] INFO: Measuring CLEAR WEB for dw.com
+[2025-07-03 02:51:43] INFO: Measuring ONION for guardian.co.uk
+[2025-07-03 02:51:56] INFO: Measuring CLEAR WEB for guardian.co.uk
+[2025-07-03 02:52:06] INFO: Measuring ONION for voanews.com
+[2025-07-03 02:52:23] INFO: Measuring CLEAR WEB for voanews.com
+[2025-07-03 02:52:34] INFO: Measuring ONION for proton.me
+[2025-07-03 02:52:47] INFO: Measuring CLEAR WEB for proton.me
+[2025-07-03 02:52:57] INFO: Measuring ONION for amnesty.org
+[2025-07-03 02:53:14] INFO: Measuring CLEAR WEB for amnesty.org
+[2025-07-03 02:53:24] INFO: Measuring ONION for propublica.org
+[2025-07-03 02:53:50] INFO: Measuring CLEAR WEB for propublica.org
+[2025-07-03 02:54:01] INFO: Measuring ONION for torproject.org
+[2025-07-03 02:54:14] INFO: Measuring CLEAR WEB for torproject.org
+[2025-07-03 02:54:26] INFO: Measuring ONION for archive.is
+[2025-07-03 02:54:37] INFO: Measuring CLEAR WEB for archive.is
+[2025-07-03 02:54:49] INFO: Measuring ONION for rferl.org
+[2025-07-03 02:55:08] INFO: Measuring CLEAR WEB for rferl.org
+[2025-07-03 02:55:20] INFO: Measuring ONION for mullvad.net
+[2025-07-03 02:55:36] INFO: Measuring CLEAR WEB for mullvad.net
+[2025-07-03 02:55:46] INFO: Measuring ONION for archive.ph
+[2025-07-03 02:55:56] INFO: Measuring CLEAR WEB for archive.ph
+[2025-07-03 02:56:08] INFO: Measuring ONION for mempool.space
+[2025-07-03 02:56:24] INFO: Measuring CLEAR WEB for mempool.space
+[2025-07-03 02:56:35] INFO: Measuring ONION for taz.de
+[2025-07-03 02:56:52] INFO: Measuring CLEAR WEB for taz.de
+[2025-07-03 02:57:02] INFO: Measuring ONION for marxists.org
+[2025-07-03 02:57:16] INFO: Measuring CLEAR WEB for marxists.org
+[2025-07-03 02:57:26] INFO: Measuring ONION for wiz.biz
+[2025-07-03 02:57:42] INFO: Measuring CLEAR WEB for wiz.biz
+[2025-07-03 02:57:53] INFO: Measuring ONION for f-droid.org
+[2025-07-03 02:58:08] INFO: Measuring CLEAR WEB for f-droid.org
+[2025-07-03 02:58:18] INFO: Measuring ONION for cock.li
+[2025-07-03 02:58:28] INFO: Measuring CLEAR WEB for cock.li
+[2025-07-03 02:58:38] INFO: Measuring ONION for mediapart.fr
+[2025-07-03 02:58:52] INFO: Measuring CLEAR WEB for mediapart.fr
+[2025-07-03 02:59:02] INFO: Measuring ONION for riseup.net
+[2025-07-03 02:59:16] INFO: Measuring CLEAR WEB for riseup.net
+[2025-07-03 02:59:29] INFO: Measuring ONION for blockstream.info
+[2025-07-03 02:59:54] INFO: Measuring CLEAR WEB for blockstream.info
+[2025-07-03 03:00:06] INFO: Measuring ONION for svoboda.org
+[2025-07-03 03:00:34] INFO: Measuring CLEAR WEB for svoboda.org
+[2025-07-03 03:00:45] INFO: Saving intermediate averages to CSV after run 2
+[2025-07-03 03:00:45] INFO: Waiting 10 minutes before next run...
+[2025-07-03 03:10:45] INFO: Starting measurement run 3 of 5
+[2025-07-03 03:10:45] INFO: Measuring ONION for archive.org
+[2025-07-03 03:11:03] INFO: Measuring CLEAR WEB for archive.org
+[2025-07-03 03:11:15] INFO: Measuring ONION for theguardian.com
+[2025-07-03 03:11:57] INFO: Measuring CLEAR WEB for theguardian.com
+[2025-07-03 03:12:07] INFO: Measuring ONION for brave.com
+[2025-07-03 03:12:26] INFO: Measuring CLEAR WEB for brave.com
+[2025-07-03 03:12:36] INFO: Measuring ONION for dw.com
+[2025-07-03 03:12:44] WARNING: Error measuring https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/: Message: Reached error page: about:neterror?e=connectionFailure&u=https%3A//www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/&c=UTF-8&d=Firefox%20kann%20keine%20Verbindung%20zu%20dem%20Server%20unter%20www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion%20aufbauen.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:910:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+[2025-07-03 03:12:47] INFO: Measuring CLEAR WEB for dw.com
+[2025-07-03 03:12:56] INFO: Measuring ONION for guardian.co.uk
+[2025-07-03 03:13:14] INFO: Measuring CLEAR WEB for guardian.co.uk
+[2025-07-03 03:13:24] INFO: Measuring ONION for voanews.com
+[2025-07-03 03:13:44] INFO: Measuring CLEAR WEB for voanews.com
+[2025-07-03 03:13:55] INFO: Measuring ONION for proton.me
+[2025-07-03 03:14:09] INFO: Measuring CLEAR WEB for proton.me
+[2025-07-03 03:14:19] INFO: Measuring ONION for amnesty.org
+[2025-07-03 03:14:38] INFO: Measuring CLEAR WEB for amnesty.org
+[2025-07-03 03:14:48] INFO: Measuring ONION for propublica.org
+[2025-07-03 03:15:07] INFO: Measuring CLEAR WEB for propublica.org
+[2025-07-03 03:15:18] INFO: Measuring ONION for torproject.org
+[2025-07-03 03:15:30] INFO: Measuring CLEAR WEB for torproject.org
+[2025-07-03 03:15:42] INFO: Measuring ONION for archive.is
+[2025-07-03 03:15:55] INFO: Measuring CLEAR WEB for archive.is
+[2025-07-03 03:16:06] INFO: Measuring ONION for rferl.org
+[2025-07-03 03:16:26] INFO: Measuring CLEAR WEB for rferl.org
+[2025-07-03 03:16:37] INFO: Measuring ONION for mullvad.net
+[2025-07-03 03:16:52] INFO: Measuring CLEAR WEB for mullvad.net
+[2025-07-03 03:17:02] INFO: Measuring ONION for archive.ph
+[2025-07-03 03:17:13] INFO: Measuring CLEAR WEB for archive.ph
+[2025-07-03 03:17:25] INFO: Measuring ONION for mempool.space
+[2025-07-03 03:19:01] WARNING: Error measuring http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/: Message: Reached error page: about:neterror?e=netTimeout&u=http%3A//mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/&c=UTF-8&d=Der%20Server%20unter%20mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion%20braucht%20zu%20lange%2C%20um%20eine%20Antwort%20zu%20senden.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:910:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+[2025-07-03 03:19:04] INFO: Measuring CLEAR WEB for mempool.space
+[2025-07-03 03:19:15] INFO: Measuring ONION for taz.de
+[2025-07-03 03:19:31] INFO: Measuring CLEAR WEB for taz.de
+[2025-07-03 03:19:42] INFO: Measuring ONION for marxists.org
+[2025-07-03 03:19:54] INFO: Measuring CLEAR WEB for marxists.org
+[2025-07-03 03:20:04] INFO: Measuring ONION for wiz.biz
+[2025-07-03 03:20:23] INFO: Measuring CLEAR WEB for wiz.biz
+[2025-07-03 03:20:33] INFO: Measuring ONION for f-droid.org
+[2025-07-03 03:20:50] INFO: Measuring CLEAR WEB for f-droid.org
+[2025-07-03 03:20:59] INFO: Measuring ONION for cock.li
+[2025-07-03 03:21:12] INFO: Measuring CLEAR WEB for cock.li
+[2025-07-03 03:21:22] INFO: Measuring ONION for mediapart.fr
+[2025-07-03 03:21:36] INFO: Measuring CLEAR WEB for mediapart.fr
+[2025-07-03 03:21:46] INFO: Measuring ONION for riseup.net
+[2025-07-03 03:22:01] INFO: Measuring CLEAR WEB for riseup.net
+[2025-07-03 03:22:14] INFO: Measuring ONION for blockstream.info
+[2025-07-03 03:22:34] INFO: Measuring CLEAR WEB for blockstream.info
+[2025-07-03 03:22:45] INFO: Measuring ONION for svoboda.org
+[2025-07-03 03:23:13] INFO: Measuring CLEAR WEB for svoboda.org
+[2025-07-03 03:23:23] INFO: Saving intermediate averages to CSV after run 3
+[2025-07-03 03:23:23] INFO: Waiting 10 minutes before next run...
+[2025-07-03 03:33:23] INFO: Starting measurement run 4 of 5
+[2025-07-03 03:33:23] INFO: Measuring ONION for archive.org
+[2025-07-03 03:33:42] INFO: Measuring CLEAR WEB for archive.org
+[2025-07-03 03:33:54] INFO: Measuring ONION for theguardian.com
+[2025-07-03 03:34:21] INFO: Measuring CLEAR WEB for theguardian.com
+[2025-07-03 03:34:31] INFO: Measuring ONION for brave.com
+[2025-07-03 03:34:53] INFO: Measuring CLEAR WEB for brave.com
+[2025-07-03 03:35:03] INFO: Measuring ONION for dw.com
+[2025-07-03 03:35:11] WARNING: Error measuring https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/: Message: Reached error page: about:neterror?e=connectionFailure&u=https%3A//www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/&c=UTF-8&d=Firefox%20kann%20keine%20Verbindung%20zu%20dem%20Server%20unter%20www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion%20aufbauen.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:910:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+[2025-07-03 03:35:14] INFO: Measuring CLEAR WEB for dw.com
+[2025-07-03 03:35:23] INFO: Measuring ONION for guardian.co.uk
+[2025-07-03 03:35:38] INFO: Measuring CLEAR WEB for guardian.co.uk
+[2025-07-03 03:35:48] INFO: Measuring ONION for voanews.com
+[2025-07-03 03:36:14] INFO: Measuring CLEAR WEB for voanews.com
+[2025-07-03 03:36:26] INFO: Measuring ONION for proton.me
+[2025-07-03 03:36:40] INFO: Measuring CLEAR WEB for proton.me
+[2025-07-03 03:36:51] INFO: Measuring ONION for amnesty.org
+[2025-07-03 03:37:06] INFO: Measuring CLEAR WEB for amnesty.org
+[2025-07-03 03:37:16] INFO: Measuring ONION for propublica.org
+[2025-07-03 03:37:35] INFO: Measuring CLEAR WEB for propublica.org
+[2025-07-03 03:37:47] INFO: Measuring ONION for torproject.org
+[2025-07-03 03:38:00] INFO: Measuring CLEAR WEB for torproject.org
+[2025-07-03 03:38:11] INFO: Measuring ONION for archive.is
+[2025-07-03 03:38:23] INFO: Measuring CLEAR WEB for archive.is
+[2025-07-03 03:38:36] INFO: Measuring ONION for rferl.org
+[2025-07-03 03:38:54] INFO: Measuring CLEAR WEB for rferl.org
+[2025-07-03 03:39:05] INFO: Measuring ONION for mullvad.net
+[2025-07-03 03:39:21] INFO: Measuring CLEAR WEB for mullvad.net
+[2025-07-03 03:39:31] INFO: Measuring ONION for archive.ph
+[2025-07-03 03:39:42] INFO: Measuring CLEAR WEB for archive.ph
+[2025-07-03 03:39:54] INFO: Measuring ONION for mempool.space
+[2025-07-03 03:41:29] WARNING: Error measuring http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/: Message: Reached error page: about:neterror?e=netTimeout&u=http%3A//mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/&c=UTF-8&d=Der%20Server%20unter%20mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion%20braucht%20zu%20lange%2C%20um%20eine%20Antwort%20zu%20senden.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:910:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+[2025-07-03 03:41:32] INFO: Measuring CLEAR WEB for mempool.space
+[2025-07-03 03:41:43] INFO: Measuring ONION for taz.de
+[2025-07-03 03:41:58] INFO: Measuring CLEAR WEB for taz.de
+[2025-07-03 03:42:08] INFO: Measuring ONION for marxists.org
+[2025-07-03 03:42:21] INFO: Measuring CLEAR WEB for marxists.org
+[2025-07-03 03:42:32] INFO: Measuring ONION for wiz.biz
+[2025-07-03 03:42:44] INFO: Measuring CLEAR WEB for wiz.biz
+[2025-07-03 03:42:55] INFO: Measuring ONION for f-droid.org
+[2025-07-03 03:43:09] INFO: Measuring CLEAR WEB for f-droid.org
+[2025-07-03 03:43:19] INFO: Measuring ONION for cock.li
+[2025-07-03 03:43:30] INFO: Measuring CLEAR WEB for cock.li
+[2025-07-03 03:43:40] INFO: Measuring ONION for mediapart.fr
+[2025-07-03 03:43:53] INFO: Measuring CLEAR WEB for mediapart.fr
+[2025-07-03 03:44:03] INFO: Measuring ONION for riseup.net
+[2025-07-03 03:44:17] INFO: Measuring CLEAR WEB for riseup.net
+[2025-07-03 03:44:29] INFO: Measuring ONION for blockstream.info
+[2025-07-03 03:44:48] INFO: Measuring CLEAR WEB for blockstream.info
+[2025-07-03 03:45:00] INFO: Measuring ONION for svoboda.org
+[2025-07-03 03:45:18] INFO: Measuring CLEAR WEB for svoboda.org
+[2025-07-03 03:45:29] INFO: Saving intermediate averages to CSV after run 4
+[2025-07-03 03:45:29] INFO: Waiting 10 minutes before next run...
+[2025-07-03 03:55:29] INFO: Starting measurement run 5 of 5
+[2025-07-03 03:55:29] INFO: Measuring ONION for archive.org
+[2025-07-03 03:55:45] INFO: Measuring CLEAR WEB for archive.org
+[2025-07-03 03:55:57] INFO: Measuring ONION for theguardian.com
+[2025-07-03 03:56:15] INFO: Measuring CLEAR WEB for theguardian.com
+[2025-07-03 03:56:25] INFO: Measuring ONION for brave.com
+[2025-07-03 03:56:44] INFO: Measuring CLEAR WEB for brave.com
+[2025-07-03 03:56:54] INFO: Measuring ONION for dw.com
+[2025-07-03 03:57:01] WARNING: Error measuring https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/: Message: Reached error page: about:neterror?e=connectionFailure&u=https%3A//www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/&c=UTF-8&d=Firefox%20kann%20keine%20Verbindung%20zu%20dem%20Server%20unter%20www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion%20aufbauen.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:910:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+[2025-07-03 03:57:04] INFO: Measuring CLEAR WEB for dw.com
+[2025-07-03 03:57:14] INFO: Measuring ONION for guardian.co.uk
+[2025-07-03 03:57:27] INFO: Measuring CLEAR WEB for guardian.co.uk
+[2025-07-03 03:57:36] INFO: Measuring ONION for voanews.com
+[2025-07-03 03:57:57] INFO: Measuring CLEAR WEB for voanews.com
+[2025-07-03 03:58:08] INFO: Measuring ONION for proton.me
+[2025-07-03 03:58:20] INFO: Measuring CLEAR WEB for proton.me
+[2025-07-03 03:58:30] INFO: Measuring ONION for amnesty.org
+[2025-07-03 03:58:46] INFO: Measuring CLEAR WEB for amnesty.org
+[2025-07-03 03:58:57] INFO: Measuring ONION for propublica.org
+[2025-07-03 03:59:15] INFO: Measuring CLEAR WEB for propublica.org
+[2025-07-03 03:59:27] INFO: Measuring ONION for torproject.org
+[2025-07-03 03:59:43] INFO: Measuring CLEAR WEB for torproject.org
+[2025-07-03 03:59:53] INFO: Measuring ONION for archive.is
+[2025-07-03 04:00:05] INFO: Measuring CLEAR WEB for archive.is
+[2025-07-03 04:00:17] INFO: Measuring ONION for rferl.org
+[2025-07-03 04:00:43] INFO: Measuring CLEAR WEB for rferl.org
+[2025-07-03 04:00:54] INFO: Measuring ONION for mullvad.net
+[2025-07-03 04:01:11] INFO: Measuring CLEAR WEB for mullvad.net
+[2025-07-03 04:01:21] INFO: Measuring ONION for archive.ph
+[2025-07-03 04:01:31] INFO: Measuring CLEAR WEB for archive.ph
+[2025-07-03 04:01:43] INFO: Measuring ONION for mempool.space
+[2025-07-03 04:03:18] WARNING: Error measuring http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/: Message: Reached error page: about:neterror?e=netTimeout&u=http%3A//mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/&c=UTF-8&d=Der%20Server%20unter%20mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion%20braucht%20zu%20lange%2C%20um%20eine%20Antwort%20zu%20senden.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:910:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+[2025-07-03 04:03:21] INFO: Measuring CLEAR WEB for mempool.space
+[2025-07-03 04:03:32] INFO: Measuring ONION for taz.de
+[2025-07-03 04:03:50] INFO: Measuring CLEAR WEB for taz.de
+[2025-07-03 04:04:00] INFO: Measuring ONION for marxists.org
+[2025-07-03 04:04:13] INFO: Measuring CLEAR WEB for marxists.org
+[2025-07-03 04:04:23] INFO: Measuring ONION for wiz.biz
+[2025-07-03 04:04:35] INFO: Measuring CLEAR WEB for wiz.biz
+[2025-07-03 04:04:45] INFO: Measuring ONION for f-droid.org
+[2025-07-03 04:05:01] INFO: Measuring CLEAR WEB for f-droid.org
+[2025-07-03 04:05:11] INFO: Measuring ONION for cock.li
+[2025-07-03 04:05:24] INFO: Measuring CLEAR WEB for cock.li
+[2025-07-03 04:05:34] INFO: Measuring ONION for mediapart.fr
+[2025-07-03 04:05:47] INFO: Measuring CLEAR WEB for mediapart.fr
+[2025-07-03 04:05:57] INFO: Measuring ONION for riseup.net
+[2025-07-03 04:06:12] INFO: Measuring CLEAR WEB for riseup.net
+[2025-07-03 04:06:24] INFO: Measuring ONION for blockstream.info
+[2025-07-03 04:06:42] INFO: Measuring CLEAR WEB for blockstream.info
+[2025-07-03 04:06:54] INFO: Measuring ONION for svoboda.org
+[2025-07-03 04:07:15] INFO: Measuring CLEAR WEB for svoboda.org
+[2025-07-03 04:07:26] INFO: Saving intermediate averages to CSV after run 5
