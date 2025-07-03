@@ -1,0 +1,12 @@
+Clear Domain,Type,URL,DNS Lookup (ms),TCP Connect (ms),TLS Handshake (ms),DOMContentLoaded (ms),Page Load (ms),Total Time (ms),Circuit Relays (Onion only)
+archive.org,onion,https://archivep75mbjunhxc6x4j5mwjmomyxb573v42baldlqu56ruil2oiad.onion/,0,4665,,7405,14594,14594,927DE5FCE32CF5E4B3044A5F8A0AF61159624CE5:EchoOfTruth:213.165.81.97:ES; 7C1A1517C27A0C68329D84D94372E0ACA9390B00:ForPrivacyNET:185.220.101.200:DE; FBB30BF902CE6A462B5FB8C376EB5E9DC6AF5A70:thorion2:94.16.120.204:DE
+archive.org,clear,https://archive.org,16,338,,1862,2447,2447,
+theguardian.com,clear,https://theguardian.com,0,0,1,356,457,457,
+brave.com,onion,https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion/index.html,0,0,1,6090,8798,8798,927DE5FCE32CF5E4B3044A5F8A0AF61159624CE5:EchoOfTruth:213.165.81.97:ES; CD0A8857D59EACFAFF253362A4B69A24FCE98239:richhomiequan:64.65.1.80:US; 1E4CA0C744A5B7AA578B5AD0C5DF09B0B6236FE0:smokepurpp:64.65.1.127:US
+brave.com,clear,https://brave.com,23,50,,335,363,363,
+archive.org,onion,https://archivep75mbjunhxc6x4j5mwjmomyxb573v42baldlqu56ruil2oiad.onion/,0,1412,,3892,9424,9424,927DE5FCE32CF5E4B3044A5F8A0AF61159624CE5:EchoOfTruth:213.165.81.97:ES; 7C1A1517C27A0C68329D84D94372E0ACA9390B00:ForPrivacyNET:185.220.101.200:DE; FBB30BF902CE6A462B5FB8C376EB5E9DC6AF5A70:thorion2:94.16.120.204:DE
+archive.org,clear,https://archive.org,0,363,,1246,1892,1892,
+theguardian.com,onion,https://www.guardian2zotagl6tmjucg3lrhxdk4dw3lhbqnkvvkywawy3oqfoprid.onion/europe,0,1307,,8573,8762,8762,6D20598F728F65FE70DFA2FCF52F439BB3C55004:prsv:194.26.192.186:NL; CD0A8857D59EACFAFF253362A4B69A24FCE98239:richhomiequan:64.65.1.80:US; 3E90247F6488DEA0554D2084F15897830FFE668F:dhrlytwofive:212.21.66.25:DE
+theguardian.com,clear,https://theguardian.com,0,0,1,324,406,406,
+brave.com,onion,https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion/index.html,0,0,2,5190,7323,7323,927DE5FCE32CF5E4B3044A5F8A0AF61159624CE5:EchoOfTruth:213.165.81.97:ES; CD0A8857D59EACFAFF253362A4B69A24FCE98239:richhomiequan:64.65.1.80:US; 1E4CA0C744A5B7AA578B5AD0C5DF09B0B6236FE0:smokepurpp:64.65.1.127:US
+brave.com,clear,https://brave.com,24,39,1,326,379,379,
