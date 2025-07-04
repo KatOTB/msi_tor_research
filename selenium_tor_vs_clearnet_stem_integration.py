@@ -8,10 +8,10 @@ from stem import StreamStatus
 from urllib.parse import urlparse
 import requests
 
-INPUT_CSV = "onion_locations_found_testset.csv"
+INPUT_CSV = "onion_locations_found_filtered.csv"
 OUTPUT_CSV = "onion_vs_clearnet_comparison_with_relays.csv"
-NUM_RUNS = 2
-DELAY_BETWEEN_RUNS = 10  # 10 seconds for testing, change to 600 for 10 minutes
+NUM_RUNS = 20
+DELAY_BETWEEN_RUNS = 600  
 
 # Set up logging
 logging.basicConfig(

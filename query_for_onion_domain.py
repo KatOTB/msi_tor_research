@@ -2,7 +2,7 @@ import requests
 import csv
 
 INPUT_CSV = "tranco_daily_top20k.csv"
-OUTPUT_CSV = "onion_locations_found.csv"
+OUTPUT_CSV = "onion_locations_found_complete.csv"
 TIMEOUT = 10
 
 def get_onion_header(domain):
