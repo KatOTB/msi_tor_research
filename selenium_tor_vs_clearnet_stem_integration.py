@@ -11,7 +11,7 @@ import requests
 INPUT_CSV = "onion_locations_found_filtered.csv"
 OUTPUT_CSV = "onion_vs_clearnet_comparison_with_relays.csv"
 NUM_RUNS = 20
-DELAY_BETWEEN_RUNS = 600  
+DELAY_BETWEEN_RUNS = 60  
 
 # Set up logging
 logging.basicConfig(
