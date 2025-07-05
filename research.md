@@ -11,3 +11,5 @@ Whats the price of security? How do page load times on Tor onion services compar
 - Testing setup? (Selenium? How does Selenium work with Tor?) x
 - Evaluation
 - Writeup
+
+-> Potential pattern in rendezvous relays? how many different relays were chosen for each domain? is the rendezvous ever in the country the client is in?
